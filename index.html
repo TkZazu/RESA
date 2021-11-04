@@ -8,6 +8,11 @@
       src="https://kit.fontawesome.com/5c44671923.js"
       crossorigin="anonymous"
     ></script>
+    <link
+      href="http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext"
+      rel="stylesheet"
+      type="text/css"
+    />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/deroulant.css" />
     <link rel="stylesheet" href="./assets/css/animation.css" />
@@ -18,15 +23,16 @@
       <div class="header">
         <div class="menu">
           <div class="title">
-            <i class="fas fa-circle red"></i>
+            <i style="color: #a73632" class="fas fa-circle red"></i>
             <a href="./assets/pages/inscrption.html"
-              ><span style="color: #a73632">S</span>'inscrire</a
+              ><span style="color: #a73632">S</span><span>'inscrire</span></a
             >
           </div>
           <div class="title">
-            <i class="fas fa-circle blue"></i>
+            <i style="color: #5855c7" class="fas fa-circle blue"></i>
             <a href="./assets/pages/nous.html"
-              ><span style="color: #5855c7">Q</span>ui sommes nous ?</a
+              ><span style="color: #5855c7">Q</span
+              ><span>ui sommes nous ?</span></a
             >
           </div>
         </div>
@@ -34,11 +40,14 @@
           src="./assets/img/248362114_398355648620008_3803155949586035786_n.png"
         />
         <div class="menu">
-          <div>
+          <div class="title">
             <nav>
               <ul>
                 <li class="deroulant">
-                  <i class="fas fa-chevron-circle-down purple"></i>
+                  <i
+                    style="color: #5a3261"
+                    class="fas fa-chevron-circle-down purple"
+                  ></i>
                   <span style="color: #5a3261">N</span><span>os outils</span>
                   <ul class="sous">
                     <li>
@@ -67,17 +76,25 @@
             </nav>
           </div>
           <div class="title">
-            <i class="fas fa-circle green"></i>
+            <i style="color: #71d243" class="fas fa-circle green"></i>
             <a href="./assets/pages/contact.html"
-              ><span style="color: #71d243">C</span>ontact</a
+              ><span style="color: #71d243">C</span><span>ontact</span></a
             >
           </div>
         </div>
         <div class="sociaux">
-          <i class="fab fa-facebook"></i>
-          <i class="fab fa-instagram"></i>
-          <i class="fab fa-snapchat"></i>
-          <i class="fab fa-twitter"></i>
+          <a href="https://www.facebook.com/gipreussir"
+            ><img src="./assets/img/icone/icons8-facebook-96.png"
+          /></a>
+          <a href="https://www.instagram.com/gipreussir/"
+            ><img src="./assets/img/icone/icons8-instagram-96.png"
+          /></a>
+          <a href="https://www.snapchat.com/add/gipreussir"
+            ><img src="./assets/img/icone/icons8-snapchat-96.png"
+          /></a>
+          <a href="https://twitter.com/gipreussir"
+            ><img src="./assets/img/icone/icons8-twitter-96.png"
+          /></a>
         </div>
       </div>
     </header>
@@ -88,13 +105,13 @@
 
     <div class="btnContainer">
       <div class="container">
-        <h3>Nouveau chez RESA ?</h3>
+        <h4>Nouveau chez RESA ?</h4>
         <button class="inscription">
           <a href="./assets/pages/inscrption.html">Je m'inscris</a>
         </button>
       </div>
       <div class="container">
-        <h3>Besoin d'aide ?</h3>
+        <h4>Besoin d'aide ?</h4>
         <button class="services">
           <a href="./assets/pages/services.html">Nos services</a>
         </button>
@@ -110,10 +127,11 @@
 
     <div class="actuContainer">
       <h1>Nos actualités :</h1>
+
       <div class="actu">
         <article>
           <h3>Actu 1</h3>
-          <div class="actuTxt-Img">
+          <div class="actuTxt">
             <img src="./assets/img/téléchargement.jfif" />
             <p>
               lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -123,8 +141,8 @@
         </article>
 
         <article>
-          <h3>Actu 1</h3>
-          <div class="actuTxt-Img">
+          <h3>Actu 2</h3>
+          <div class="actuTxt">
             <img src="./assets/img/téléchargement.jfif" />
             <p>
               lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -132,6 +150,12 @@
             </p>
           </div>
         </article>
+
+        <div class="bubble">
+          <i style="color: #fff" class="fas fa-circle green"></i>
+          <i style="color: #fff" class="fas fa-circle green"></i>
+          <i style="color: #fff" class="fas fa-circle green"></i>
+        </div>
       </div>
 
       <article class="facebookWidget">
@@ -152,6 +176,10 @@
     </div>
 
     <footer>
+      <div class="btnContact">
+        <a href="./assets/pages/contact.html"><button>Contact</button></a>
+      </div>
+
       <div class="separation"></div>
 
       <div class="banniereContact">

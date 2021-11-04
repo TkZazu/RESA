@@ -1,5 +1,4 @@
 /** Menu déroulant **/
-
 * {
   margin: 0;
   padding: 0;
@@ -13,13 +12,14 @@ nav {
 }
 nav ul {
   list-style-type: none;
+  display: flex;
+  justify-content: center;
 }
 nav ul li {
   float: left;
-  width: 25%;
+  width: 100%;
   text-align: center;
   position: relative;
-  border-bottom: 1px solid #5a3261;
 }
 nav ul::after {
   content: "";
