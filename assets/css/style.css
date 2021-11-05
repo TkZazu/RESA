@@ -180,6 +180,9 @@ body {
   height: 90%;
   overflow: hidden;
 }
+.actu div .hidden {
+  display: none;
+}
 
 /** Facebook Widget **/
 
@@ -355,6 +358,9 @@ body {
   body {
     max-width: 1440px;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   header {
     width: 100%;
@@ -396,12 +402,12 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #edb542;
-    width: 100%;
+    width: 95%;
     border-radius: 25px;
     height: 100px;
     color: white;
-    font-size: 32px;
-    margin: 50px 0px;
+    font-size: 28px;
+    padding: 0px 0px 0px 10px;
   }
   .actuContainer {
     flex-direction: row;
@@ -411,42 +417,72 @@ body {
   }
   .actu {
     width: 45%;
-    height: 100%;
+    height: 90%;
+    border-radius: 25px;
+    margin: 0;
   }
   .actu article {
-    height: 45%;
-    justify-content: space-around;
+    height: 44%;
+    margin-bottom: 30px;
+  }
+  .actu .actuTxt {
+    height: 95%;
+    align-items: flex-start;
+    padding: 10px 5px 0px 5px;
+    flex-wrap: wrap;
   }
   .actuContainer h1 {
     width: 100%;
+    padding: 0px 0px 0px 30px;
   }
   .actu div img {
-    height: 97%;
+    height: 50%;
+    width: 45%;
+    border-radius: 25px;
   }
   .actu div p {
     font-size: 24px;
+    width: 45%;
+    height: 50%;
+  }
+  .actu .bubble {
+    padding: 10px 0px;
+  }
+  .actu div .hidden {
+    width: 100%;
+    display: flex;
   }
   .facebookWidget {
     width: 45%;
-    height: 100%;
-  }
-  .facebookWidget img {
-    width: 100%;
     height: 90%;
+    margin: 0;
   }
   .liens p {
-    font-size: 20px;
+    font-size: 36px;
   }
   .liens h3 {
-    font-size: 20px;
+    font-size: 36px;
+    margin-top: 25px;
   }
   .liens a {
     width: 100%;
   }
   .btnContact button {
-    width: 135px;
-    height: 50px;
-    font-size: 20px;
+    display: none;
+  }
+  footer {
+    width: 100%;
+  }
+  .banniereContact {
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .banniereContact h2 {
+    display: block;
+    text-decoration: underline;
+  }
+  .banniereContact img {
+    width: 70%;
   }
   .infoSite h4 {
     font-size: 20px;
