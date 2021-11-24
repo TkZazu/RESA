@@ -11,7 +11,6 @@
     ></script>
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="./assets/css/deroulant.css" />
     <!-- Boostrap -->
     <link
       rel="stylesheet"
@@ -24,34 +23,82 @@
 
   <body>
     <header>
-      <div style="max-height: 150px">
-        <img
-          class="img-fluid h-100 d-inline-block"
-          src="./assets/img/logo-resa.png"
-          alt="Logo RESA"
-        />
-        <img
-          class="img-fluid"
-          src="./assets/img/locaux-resa.jpg"
-          alt="Locaux RESA"
-        />
-      </div>
-      <div class="dropdown">
-        <button
-          class="btn btn-secondary dropdown-toggle"
-          type="button"
-          id="dropdownMenuButton"
-          data-toggle="dropdown"
-          aria-haspopup="true"
-          aria-expanded="false"
-        >
-          Dropdown button
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" href="/">Pour le public</a>
-          <a class="dropdown-item" href="/">Pour les entreprises</a>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-4 col-sm-12 col-md-12 col-lg-12">
+            <img
+              style="width: 100%"
+              class="img-fluid h-100 laptop-tablet"
+              src="./assets/img/logo&locaux.png"
+              alt="Logo / Locaux RESA"
+            />
+            <img
+              style="width: 100%"
+              class="img-fluid h-100 phone"
+              src="./assets/img/logo.png"
+              alt="Logo RESA"
+            />
+          </div>
+
+          <div class="col-7 col-sm-12 col-md-12 col-lg-12 banner">
+            <div class="display-menu row">
+              <div class="menu col-12 col-sm-3">
+                <div class="round red"></div>
+                <a class="btn" href="./assets/pages/inscription.html"
+                  ><span style="color: #a73632">S</span>'inscrire</a
+                >
+              </div>
+
+              <div class="menu col-12 col-sm-3">
+                <div class="round blue"></div>
+                <a class="btn" href="./assets/pages/nous.html"
+                  ><span style="color: #5855c7">Q</span>ui sommes nous ?</a
+                >
+              </div>
+
+              <div class="menu col-12 col-sm-3">
+                <div class="round purple"></div>
+                <div class="dropdown">
+                  <button
+                    class="btn dropdown-toggle"
+                    type="button"
+                    id="dropdownMenuButton"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    <span style="color: #5a3261">N</span>os outils
+                  </button>
+                  <div
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton"
+                  >
+                    <a
+                      class="dropdown-item"
+                      href="./assets/pages/outilsPublic.html"
+                      >Pour le public</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      href="./assets/pages/outilsEntreprise.html"
+                      >Pour les entreprises</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="menu col-12 col-sm-3">
+                <div class="round green"></div>
+                <a class="btn" href="./assets/pages/contact.html"
+                  ><span style="color: #71d243">C</span>ontact</a
+                >
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+
+      <div class="border"></div>
 
       <div class="sociaux">
         <a href="https://www.facebook.com/gipreussir"
