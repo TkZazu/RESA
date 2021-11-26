@@ -142,9 +142,12 @@
 .row-contact {
   margin-top: 25px !important;
 }
+.row-contact div a,
 .row-contact div p {
   font-size: xx-small;
   margin: 0;
+  text-decoration: none;
+  color: black;
 }
 .imgFluid {
   width: 100%;
@@ -293,6 +296,10 @@
   .dropdown-menu > a {
     font-size: x-large;
   }
+  .sociaux a img {
+    width: 100px;
+    height: 100px;
+  }
   .carousel {
     height: 500px;
     width: 75%;
@@ -304,15 +311,21 @@
     font-size: larger;
   }
   .btn-video {
-    height: 350px;
+    height: 400px;
     justify-content: center;
     margin-bottom: 100px !important;
   }
   .btn-container {
     width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
   }
   .video {
     width: 35%;
     height: 400px;
+  }
+  .order-sm-3 {
+    margin: 50px 0 50px 0 !important;
   }
 }
