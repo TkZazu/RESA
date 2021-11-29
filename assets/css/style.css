@@ -31,16 +31,20 @@
 }
 
 .red {
-  background-color: #a73632;
+  background-color: #a73632 !important;
+  color: #fff !important;
 }
 .blue {
-  background-color: #5855c7;
+  background-color: #5855c7 !important;
+  color: #fff !important;
 }
 .green {
-  background-color: #71d243;
+  background-color: #71d243 !important;
+  color: #fff !important;
 }
 .purple {
-  background-color: #5a3261;
+  background-color: #5a3261 !important;
+  color: #fff !important;
 }
 
 .menu {
@@ -155,12 +159,40 @@
 .contactBannerButton {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .video {
   height: 250px;
 }
 .btn-video {
   margin-bottom: 25px;
+}
+
+.marginTB {
+  margin-bottom: 50px;
+  margin-top: 50px !important;
+}
+.auto-resizable {
+  max-width: 890px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.auto-resizable div {
+  position: relative;
+  padding-bottom: 65%;
+  height: 0;
+}
+.auto-resizable iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.coupureServ {
+  width: 45% !important;
+  height: 3px;
+  background-color: black;
 }
 @media screen and (min-width: 576px) {
   .laptop-tablet {
@@ -258,6 +290,9 @@
   .copyright {
     width: 50%;
   }
+  .videoClap {
+    height: 350px;
+  }
 }
 
 @media screen and (min-width: 769px) {
@@ -266,6 +301,12 @@
   }
   .dropdown > button {
     font-size: larger;
+  }
+  .conseilTxt h6 {
+    font-size: larger;
+  }
+  .conseilTxt p {
+    font-size: medium;
   }
   .sociaux a img {
     width: 50px;
@@ -284,6 +325,12 @@
   .btn-video {
     justify-content: space-around;
   }
+  .row div p {
+    font-size: larger;
+  }
+  .videoClap {
+    height: 450px;
+  }
 }
 
 @media screen and (min-width: 1025px) {
@@ -301,8 +348,8 @@
     height: 100px;
   }
   .carousel {
-    height: 500px;
-    width: 75%;
+    height: 600px;
+    width: 70%;
   }
   .btn-individual {
     font-size: larger;
@@ -325,7 +372,15 @@
     width: 35%;
     height: 400px;
   }
+  .videoClap {
+    height: 500px;
+    width: 60% !important;
+  }
   .order-sm-3 {
     margin: 50px 0 50px 0 !important;
+  }
+  .row-contact div a,
+  .row-contact div p {
+    font-size: medium;
   }
 }
