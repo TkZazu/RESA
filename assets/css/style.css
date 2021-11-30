@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+  height: 100%;
+}
 .container-fluid {
   padding: 0;
   padding-left: 0;
@@ -116,6 +120,7 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 25px;
+  border: 2px solid #edb542;
 }
 .btn-contact {
   display: flex;
@@ -193,6 +198,16 @@
   width: 45% !important;
   height: 3px;
   background-color: black;
+}
+.imgCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  padding: 0 !important;
+  border: 5px solid #5a3261 !important;
 }
 @media screen and (min-width: 576px) {
   .laptop-tablet {
