@@ -1,5 +1,7 @@
 .sociaux a,
-.conseil i {
+.conseil i,
+.btn-individual a,
+.btn-contact a {
   -webkit-transition: all 1s ease; /* Safari et Chrome */
   -moz-transition: all 1s ease; /* Firefox */
   -ms-transition: all 1s ease; /* Internet Explorer 9 */
@@ -7,7 +9,9 @@
   transition: all 1s ease;
 }
 .sociaux a:hover,
-.conseil i:hover {
+.conseil i:hover,
+.btn-individual a:hover,
+.btn-contact a:hover {
   /* L'image est grossie de 25% */
   -webkit-transform: scale(1.25);
   -moz-transform: scale(1.25);
@@ -16,14 +20,20 @@
   transform: scale(1.25);
 }
 
-.menu a {
+.menu a,
+.wBack,
+.wBackDarker,
+.card {
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -ms-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease;
 }
-.menu a:hover {
+.menu a:hover,
+.wBack:hover,
+.wBackDarker:hover,
+.card:hover {
   -webkit-transform: scale(1.15);
   -moz-transform: scale(1.15);
   -ms-transform: scale(1.15);
@@ -31,59 +41,13 @@
   transform: scale(1.15);
 }
 
-.card::before,
-.card::after {
-  content: "";
-  width: 0;
-  height: 5px;
-  position: absolute;
-  transition: all 0.2s linear;
-  background: #5a3261;
+.wBack:hover,
+.wBackDarker:hover {
+  background-color: grey;
+  color: aliceblue;
 }
 
-.card a::before,
-.card a::after {
-  content: "";
-  width: 5px;
-  height: 0;
-  position: absolute;
-  transition: all 0.2s linear;
-  background: #5a3261;
-}
-.card:hover::before,
-.card:hover::after {
-  width: 90%;
-}
-.card:hover a::before,
-.card:hover a::after {
-  height: 90%;
-}
-
-.card::before {
-  left: 50%;
-  top: 10px;
-  transition-duration: 0.4s;
-}
-.card::after {
-  left: 50%;
-  bottom: 10px;
-  transition-duration: 0.4s;
-}
-.card a::before {
-  left: 20px;
-  top: 50%;
-  transition-duration: 0.4s;
-}
-.card a::after {
-  right: 23px;
-  top: 50%;
-  transition-duration: 0.4s;
-}
-.card:hover::before,
-.card:hover::after {
-  left: 20px;
-}
-.card:hover a::before,
-.card:hover a::after {
-  top: 13px;
+.wBack a:hover,
+.wBackDarker a:hover {
+  color: #71d243;
 }

@@ -209,6 +209,29 @@ body {
   padding: 0 !important;
   border: 5px solid #5a3261 !important;
 }
+.wBack {
+  background-color: rgba(128, 128, 128, 0.075);
+  padding: 25px 0 25px 0;
+}
+.wBackDarker {
+  background-color: rgba(128, 128, 128, 0.178);
+  padding: 25px 0 25px 0;
+}
+.wBack a {
+  text-decoration: none;
+  color: black;
+}
+.wBackDarker a {
+  text-decoration: none;
+  color: black;
+}
+.mailto {
+  color: black;
+  text-decoration: none;
+}
+.mailto:hover {
+  color: #71d243;
+}
 @media screen and (min-width: 576px) {
   .laptop-tablet {
     display: grid;
