@@ -161,6 +161,17 @@ body {
 .imgFluid {
   width: 100%;
 }
+.flexForm {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  text-decoration: underline;
+  margin: 5px 0 5px 0;
+}
+input {
+  padding-left: 10px;
+}
 .contactBannerButton {
   display: flex;
   justify-content: space-between;
@@ -232,6 +243,7 @@ body {
 .mailto:hover {
   color: #71d243;
 }
+
 @media screen and (min-width: 576px) {
   .laptop-tablet {
     display: grid;
@@ -291,6 +303,9 @@ body {
   .carousel-item a img {
     border-radius: 15px;
   }
+  .h-top {
+    height: 200px;
+  }
   .btn-video {
     display: flex;
     justify-content: space-evenly;
@@ -337,6 +352,9 @@ body {
   .display-menu > .menu > a {
     font-size: larger;
   }
+  .h-top {
+    height: 300px;
+  }
   .dropdown > button {
     font-size: larger;
   }
@@ -374,6 +392,9 @@ body {
 @media screen and (min-width: 1025px) {
   .display-menu > .menu > a {
     font-size: x-large;
+  }
+  .h-top {
+    height: 500px;
   }
   .dropdown > button {
     font-size: x-large;

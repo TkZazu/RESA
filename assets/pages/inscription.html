@@ -34,7 +34,7 @@
     <header>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-4 col-sm-12 col-md-12 col-lg-12">
+          <div class="col-4 col-sm-12 col-md-12 col-lg-12 h-top">
             <img
               style="width: 100%"
               class="img-fluid h-100 laptop-tablet"
@@ -121,14 +121,286 @@
       </div>
     </header>
 
+    <div class="container">
+      <div class="row text-center center marginTB">
+        <div class="col-0 col-sm-3"></div>
+        <div
+          style="padding-top: 5px; border-radius: 15px"
+          class="col-12 col-sm-6 red"
+        >
+          <div
+            style="
+              background-color: #fff;
+              color: black;
+              border-radius: 15px;
+              margin: 10px;
+            "
+          >
+            <h4 style="margin: 10px">
+              <span style="color: #a73632">D</span>emande de prè-inscription à
+              Réussir en Sambre Avesnois
+            </h4>
+            <p style="margin: 10px">
+              <span style="color: #a73632">M</span>erci de vérifier que vous
+              habitez bien l'une des communes couverte par Réussir en Sambre
+              Avesnois et vérifier que vos coordonnées sont valables.
+            </p>
+          </div>
+        </div>
+        <div class="col-0 col-sm-3"></div>
+        <div class="col-0 col-sm-3"></div>
+        <div class="col12 col-sm-6 marginTB">
+          <p>
+            Vos informations resteront confidentiels et ne seront pas utilisées
+            dans un autre cas que votre accompagnement.
+          </p>
+          <p style="font-weight: bold">
+            Besoin d’aide pour votre inscription ? Appelez nous et bénéficiez
+            d’un suivi : <span style="color: #a73632">03 36 32 32 00</span>
+          </p>
+        </div>
+        <div class="col-0 col-sm-3"></div>
+        <div class="col-0 col-sm-3"></div>
+        <div class="col-12 col-sm-6">
+          <form
+            action=""
+            style="border-radius: 15px"
+            class="red marginTB container"
+          >
+            <div class="row" style="margin-top: 10px; margin-bottom: 10px">
+              <div style="font-weight: bold" class="col-12">
+                Tout les champs sont obligatoires.
+              </div>
+              <div class="col-6 flexForm">
+                <label class="form-label" for="nom">Nom :</label>
+                <input
+                  class="form-control"
+                  type="text"
+                  id="nom"
+                  autocomplete="off"
+                />
+              </div>
+              <div class="col-6 flexForm">
+                <label class="form-label" for="prenom">Prénom :</label>
+                <input
+                  class="form-control"
+                  type="text"
+                  id="prenom"
+                  autocomplete="off"
+                />
+              </div>
+              <div class="col-6 flexForm">
+                <label class="form-label" for="age">Âge :</label>
+                <input
+                  class="form-control"
+                  type="text"
+                  id="age"
+                  autocomplete="off"
+                />
+              </div>
+              <div class="col-6 flexForm">
+                <label class="form-label" for="sexe">Sexe :</label>
+                <input
+                  class="form-control"
+                  type="text"
+                  id="sexe"
+                  autocomplete="off"
+                />
+                <span></span>
+              </div>
+              <div class="col-12 flexForm">
+                <label class="form-label" for="email">E-mail :</label>
+                <input
+                  class="form-control"
+                  type="email"
+                  id="email"
+                  autocomplete="off"
+                />
+                <span></span>
+              </div>
+              <div class="col-6 flexForm">
+                <label class="form-label" for="tel">Téléphone :</label>
+                <input
+                  class="form-control"
+                  type="text"
+                  id="tel"
+                  autocomplete="off"
+                />
+                <span></span>
+              </div>
+              <div class="col-6 flexForm">
+                <label class="form-label" for="ville">Ville :</label>
+                <input
+                  class="form-control"
+                  type="text"
+                  id="ville"
+                  autocomplete="off"
+                />
+              </div>
+              <div class="col-12 flexForm">
+                <label for="adress" class="form-label">Adresse :</label>
+                <input
+                  class="form-control"
+                  type="text"
+                  id="adress"
+                  autocomplete="off"
+                />
+              </div>
+              <div class="col-12 flexForm">
+                <label for="" class="form-label">Nationalité :</label>
+                <input
+                  class="form-control"
+                  type="text"
+                  id="nationalite"
+                  autocomplete="off"
+                />
+              </div>
+              <div class="col-12 flexForm">
+                <label for="" class="form-label"
+                  >Êtes-vous déjà inscrit.e ou avez-vous déjà été suivi.e par
+                  RESA (PLIE ou Mission Locale, Garantie Jeunes) ?</label
+                >
+                <div
+                  class="form-control"
+                  style="
+                    background-color: #fff;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    margin-bottom: 15px;
+                  "
+                >
+                  <div
+                    class="form-check"
+                    style="display: flex; align-items: center"
+                  >
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="firstInscription"
+                    />
+                    <label
+                      style="
+                        color: black;
+                        text-decoration: none;
+                        padding-left: 10px;
+                      "
+                      class="form-check-label"
+                      for="firstInscription"
+                    >
+                      Non c'est pour une première inscription
+                    </label>
+                  </div>
+                  <div
+                    class="form-check"
+                    style="display: flex; align-items: center"
+                  >
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="rdvConseil"
+                    />
+                    <label
+                      style="
+                        color: black;
+                        text-decoration: none;
+                        padding-left: 10px;
+                      "
+                      class="form-check-label"
+                      for="rdvConseil"
+                    >
+                      Oui, je suis déjà suivi.e et je souhaite un rdv avec
+                      mon/ma conseiller.ère
+                    </label>
+                  </div>
+                  <div
+                    class="form-check"
+                    style="display: flex; align-items: center"
+                  >
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="revoirConseil"
+                    />
+                    <label
+                      style="
+                        color: black;
+                        text-decoration: none;
+                        padding-right: 15px;
+                        padding-top: 10px;
+                      "
+                      class="form-check-label"
+                      for="revoirConseil"
+                    >
+                      Oui, j'ai déjà été suivi il y a quelques années ou il y a
+                      plus d'un an et je souhaite revoir un conseiller
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <input
+                  class="form-control"
+                  type="submit"
+                  id="submit"
+                  value="Valider"
+                />
+              </div>
+              <div class="col-6" style="margin-bottom: 25px">
+                <input
+                  class="form-control"
+                  type="submit"
+                  id="submit"
+                  value="Effacer"
+                />
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-0 col-sm-3"></div>
+        <div class="col-0 col-sm-3"></div>
+        <div class="col-12 col-sm-6">
+          <p style="font-size: small">
+            Dans le cadre du traitement de vos données à caractère personnel,
+            vous disposez de plusieurs droits issus du RGPD que vous pouvez
+            faire valoir auprès du responsable de traitement : dpo@gipreussir.fr
+            <br />
+            • Le droit d’accéder à vos données à caractère personnel faisant
+            l’objet d’un traitement (article 15 du RGPD)<br />
+            • Le droit de retirer votre consentement à tout moment, sans
+            remettre en cause le traitement mis en œuvre jusque-là (article 7 du
+            RGPD).<br />
+            • Le droit de rectifier des données inexactes et de compléter des
+            données incomplètes (article 16 du RGPD)<br />
+            • Le droit d’obtenir l’effacement de vos données, dans les cas
+            prévus à l’article 17 du RGPD<br />
+            • Le droit d’obtenir la limitation du traitement exercé sur vos
+            données (article 18 du RGPD) : en faisant valoir ce droit, vous
+            stopperez tout ou partie du traitement de vos données personnelles,
+            à l’exception de leur conservation.<br />
+            • Le droit à la portabilité de vos données (article 20 du RGPD) : en
+            faisant valoir ce droit vous pourrez demander que Réussir en Sambre
+            Avesnois vous communique les données à caractère personnel vous
+            concernant dans un format structuré, couramment utilisé et lisible
+            par machine afin de les utiliser vous-même ou les confier à un autre
+            organisme de traitement.<br />
+            • Le droit d’introduire une réclamation auprès de la CNIL (article
+            13 du RGPD).
+          </p>
+        </div>
+        <div class="col-0 col-sm-3"></div>
+      </div>
+    </div>
+
     <footer>
       <div class="btn-contact displayPhone">
-        <a href="../pages/contact.html" class="btn btn-warning"
-          >Nous contacter</a
-        >
+        <a href="../pages/contact.html" class="btn red">Nous contacter</a>
       </div>
 
-      <div class="coupure">
+      <div class="coupure red">
         <div
           class="coupureLine"
           style="height: 2px; width: 85%; background-color: #fff"

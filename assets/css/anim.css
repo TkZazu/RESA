@@ -1,7 +1,11 @@
 .sociaux a,
 .conseil i,
 .btn-individual a,
-.btn-contact a {
+.btn-contact a,
+.card,
+.menu a,
+.wBack,
+.wBackDarker {
   -webkit-transition: all 1s ease; /* Safari et Chrome */
   -moz-transition: all 1s ease; /* Firefox */
   -ms-transition: all 1s ease; /* Internet Explorer 9 */
@@ -11,7 +15,8 @@
 .sociaux a:hover,
 .conseil i:hover,
 .btn-individual a:hover,
-.btn-contact a:hover {
+.btn-contact a:hover,
+.card:hover {
   /* L'image est grossie de 25% */
   -webkit-transform: scale(1.25);
   -moz-transform: scale(1.25);
@@ -20,34 +25,80 @@
   transform: scale(1.25);
 }
 
-.menu a,
-.wBack,
-.wBackDarker,
-.card {
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  transition: all 1s ease;
-}
 .menu a:hover,
 .wBack:hover,
-.wBackDarker:hover,
-.card:hover {
-  -webkit-transform: scale(1.15);
-  -moz-transform: scale(1.15);
-  -ms-transform: scale(1.15);
-  -o-transform: scale(1.15);
-  transform: scale(1.15);
+.wBackDarker:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .wBack:hover,
 .wBackDarker:hover {
   background-color: grey;
   color: aliceblue;
+  cursor: pointer;
 }
 
 .wBack a:hover,
 .wBackDarker a:hover {
   color: #71d243;
 }
+
+/* .bgColor1:hover {
+  background-color: #534ed6;
+  color: #fff;
+}
+.bgColor2:hover {
+  background-color: #2b27a8;
+  color: #fff;
+}
+.bgColor3:hover {
+  background-color: #472695;
+  color: #fff;
+}
+.bgColor4:hover {
+  background-color: #4f2981;
+  color: #fff;
+}
+.bgColor5:hover {
+  background-color: rgb(236, 49, 49);
+}
+.bgColor6:hover {
+  background-color: rgb(250, 79, 0);
+}
+.bgColor7:hover {
+  background-color: rgb(253, 144, 2);
+}
+.bgColor8:hover {
+  background-color: rgb(238, 255, 0);
+}
+.bgColor9:hover {
+  background-color: rgb(0, 255, 34);
+}
+.bgColor10:hover {
+  background-color: rgb(2, 214, 48);
+}
+.bgColor11:hover {
+  background-color: rgb(4, 250, 119);
+}
+.bgColor12:hover {
+  background-color: rgb(0, 255, 191);
+}
+.bgColor13:hover {
+  background-color: rgb(0, 204, 255);
+}
+.bgColor14:hover {
+  background-color: #008cff;
+}
+
+.bgColor9 a:hover,
+.bgColor10 a:hover,
+.bgColor11 a:hover,
+.bgColor12 a:hover,
+.bgColor13 a:hover,
+.bgColor14 a:hover {
+  color: #fff;
+} */
