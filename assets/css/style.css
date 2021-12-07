@@ -243,6 +243,18 @@ input {
 .mailto:hover {
   color: #71d243;
 }
+.error input {
+  color: red;
+  border: 5px solid red;
+}
+.error span {
+  visibility: visible;
+  opacity: 1;
+  color: rgb(255, 0, 0);
+}
+.formFooter-wrapper {
+  display: none;
+}
 
 @media screen and (min-width: 576px) {
   .laptop-tablet {
@@ -267,11 +279,18 @@ input {
   .dropdown-menu {
     background-color: #edb542 !important;
   }
+  .villeColor {
+    background-color: #a73632 !important;
+  }
+
   .dropdown-item {
     color: white !important;
   }
   .dropdown-item:hover {
     background-color: #cf992bb7 !important;
+  }
+  .villeItemColor:hover {
+    background-color: #da443f !important;
   }
   .banner {
     background-color: #edb542;

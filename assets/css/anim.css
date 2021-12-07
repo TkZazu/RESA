@@ -35,7 +35,7 @@
   transform: scale(1.1);
 }
 
-.wBack:hover,
+/* .wBack:hover,
 .wBackDarker:hover {
   background-color: grey;
   color: aliceblue;
@@ -45,9 +45,9 @@
 .wBack a:hover,
 .wBackDarker a:hover {
   color: #71d243;
-}
+} */
 
-/* .bgColor1:hover {
+.bgColor1:hover {
   background-color: #534ed6;
   color: #fff;
 }
@@ -101,4 +101,4 @@
 .bgColor13 a:hover,
 .bgColor14 a:hover {
   color: #fff;
-} */
+}
