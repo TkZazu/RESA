@@ -219,6 +219,9 @@ input {
 .card {
   padding: 0 !important;
   border: 5px solid #5a3261 !important;
+  border-radius: 50px !important;
+  box-shadow: 10px 10px 12px rgb(202, 189, 189),
+    -10px -10px 12px rgb(202, 189, 189);
 }
 .wBack {
   background-color: rgba(128, 128, 128, 0.075);
@@ -364,7 +367,7 @@ input {
     justify-content: flex-end;
   }
   .copyright {
-    width: 50%;
+    width: 60%;
   }
   .videoClap {
     height: 350px;
