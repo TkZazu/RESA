@@ -2,6 +2,20 @@ body {
   overflow-x: hidden;
   height: 100%;
 }
+.cookie {
+  width: 100%;
+  background-color: #fff;
+  height: 200px;
+  border: 3px solid black;
+  position: fixed;
+  z-index: 10;
+  top: 430px;
+  justify-content: space-around;
+  align-items: center;
+}
+.cookieErase {
+  display: none;
+}
 .container-fluid {
   padding: 0;
   padding-left: 0;
@@ -372,6 +386,12 @@ input {
   .videoClap {
     height: 350px;
   }
+  .cookie {
+    top: 600px;
+  }
+  .size {
+    font-size: x-large !important;
+  }
 }
 
 @media screen and (min-width: 769px) {
@@ -467,5 +487,8 @@ input {
   .row-contact div a,
   .row-contact div p {
     font-size: medium;
+  }
+  .cookie {
+    top: 700px;
   }
 }
