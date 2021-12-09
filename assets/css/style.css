@@ -5,13 +5,17 @@ body {
 .cookie {
   width: 100%;
   background-color: #fff;
-  height: 200px;
-  border: 3px solid black;
+  height: 75px;
   position: fixed;
   z-index: 10;
-  top: 430px;
+  top: 785px;
+  display: flex;
+  font-size: x-small;
   justify-content: space-around;
   align-items: center;
+}
+.size {
+  font-size: x-small !important;
 }
 .cookieErase {
   display: none;
@@ -387,10 +391,8 @@ input {
     height: 350px;
   }
   .cookie {
-    top: 600px;
-  }
-  .size {
-    font-size: x-large !important;
+    top: 792px;
+    height: 50px;
   }
 }
 
@@ -489,6 +491,6 @@ input {
     font-size: medium;
   }
   .cookie {
-    top: 700px;
+    top: 890px;
   }
 }
