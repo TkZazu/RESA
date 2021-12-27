@@ -205,6 +205,7 @@ input {
 .marginTB {
   margin-bottom: 50px;
   margin-top: 50px !important;
+  overflow: hidden;
 }
 .auto-resizable {
   max-width: 890px;
@@ -370,13 +371,6 @@ input {
     height: 250px;
     margin-top: 40px !important;
   }
-  .displayPhone {
-    display: none;
-  }
-  .displayTablet {
-    display: block;
-    font-size: x-large;
-  }
   .imgFluid {
     width: 70%;
   }
@@ -399,6 +393,13 @@ input {
 @media screen and (min-width: 769px) {
   .display-menu > .menu > a {
     font-size: larger;
+  }
+  .displayPhone {
+    display: none;
+  }
+  .displayTablet {
+    display: block;
+    font-size: x-large;
   }
   .h-top {
     height: 300px;
